@@ -15,7 +15,7 @@ import redis
 import requests as req
 reload(sys)
 sys.setdefaultencoding("utf-8")
-TOKEN = '408456657:AAEUuI2oK4iZ8xI9dePWhjfOgLgdYcSVspw'
+TOKEN = '485455567:AAGbJ-7GSMF7PqjZO9UYvQwvZCGLXz8KnF8'
 bot = telebot.TeleBot(TOKEN)
 redis = redis.StrictRedis(host='localhost', port=6379, db=0)
 db = "https://api.telegram.org/bot{}/getMe?".format(TOKEN)
